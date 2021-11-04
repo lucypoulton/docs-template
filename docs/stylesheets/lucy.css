@@ -1,7 +1,7 @@
 @import "https://lucypoulton.net/css/index.css";
 
-a:hover {
-    color: var(--accent);
+a:hover, .navitem.active > .nav-link {
+    color: var(--accent) !important;
 }
 
 body::before {
@@ -46,4 +46,22 @@ pre {
 .hljs-comment {
     color: #aaa;
     font-style: italic;
+}
+
+.bs-sidebar .nav > li > a {
+    border-right: none !important;
+}
+
+#navbar-collapse {
+    margin-left: 1em;
+}
+
+hr {
+    width: 50%;
+    border-color: #444444;
+}
+
+footer {
+    color: #aaaaaa;
+    font-size: 0.8em;
 }

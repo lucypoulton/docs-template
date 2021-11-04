@@ -6,3 +6,7 @@ theme:
 
 extra_css:
   - stylesheets/lucy.css
+
+nav:
+  - Index: index.md
+  - Example: "https://lucypoulton.net"
